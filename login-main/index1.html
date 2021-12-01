@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<title>ADPT-ME</title>
+</head>
+<body>
+	
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>ADPT-ME</h1>
+				<p>Tu Canino Amigo</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Hembras</a>
+				<a href="#">Machos</a>
+				<a href="#">Cachorros</a>
+				
+			</div>
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item"
+				 data-categoria="hembras"
+				 data-etiquetas="hembras dormilon hembra cafe grande "
+				 data-descripcion="Hola soy afrodita"
+			>
+				<div class="item-contenido">
+					<img src="img/perro1.jpg" alt="">
+				</div>
+			</div>
+			<div class="item" 
+			data-categoria="cachorros"
+			data-etiquetas="cachorros hembras cachorro cafe  cuidado croqueta"
+			data-descripcion="hola soy afrodita"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/perro2.jpg" alt="">
+		   </div>
+			</div>
+
+			<div class="item"
+			data-categoria="cachorros"
+			data-etiquetas="cachorros hembras cachorro cafe  cuidado croqueta"
+			data-descripcion="hola soy Eris"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/perro3.jpg" alt="">
+		   </div>
+			</div>
+
+			<div class="item"
+			data-categoria="machos"
+			data-etiquetas="machos cachorro cafe  cuidado croqueta"
+			data-descripcion="Hola soy Wilsson"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/perro13.jpg" alt="">
+		   </div>
+			</div>
+
+			<div class="item"
+			data-categoria="machos"
+			data-etiquetas="machos pequeño viejo gris"
+			data-descripcion="Hola soy Ramiro"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/perro11.jpg" alt="">
+		   </div>
+			</div>
+
+			<div class="item"
+			data-categoria="hembras"
+			data-etiquetas="hembras dormilon hembra blanco grande "
+			data-descripcion="Hola soy Petra"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/perro12.jpg" alt="">
+		   </div>
+			</div>
+
+			<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="6.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="img/persona2.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+			data-categoria="machos"
+			data-etiquetas="machos cuidado macho comelon bicolor jugueton"
+			data-descripcion="Hola soy Memo"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/perro15.jpg" alt="">
+		   </div>
+			</div>
+
+			<div class="item" 
+			data-categoria="hembras"
+			data-etiquetas="hembras jugueton sonriente blanco chico"
+			data-descripcion="Hola soy Chimichanga"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/perro10.jpg" alt="">
+		   </div>
+			</div>
+
+			<div class="item"
+			data-categoria="cachorros"
+			data-etiquetas="cachorros dormilon pequeño cafe cuidado"
+			data-descripcion="Hola soy Betito
+				"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/perro8.jpg" alt="">
+		   </div>
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="http://www.twitter.com/falconmasters" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.facebook.com/falconmasters" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.instagram.com" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio diseñado por <a href="#">ADPT-ME</a> - <a href="https://www.falconmasters.com">derechos reservados</a></p>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dar en adopción.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css"
+    integrity="sha256-DOS9W6NR+NFe1fUhEE0PGKY/fubbUCnOfTje2JMDw3Y=" crossorigin="anonymous" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css"
+        integrity="sha256-DOS9W6NR+NFe1fUhEE0PGKY/fubbUCnOfTje2JMDw3Y=" crossorigin="anonymous" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Oldenburg&display=swap" rel="stylesheet">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="estilos/stylesAdoptaryAdopcion.css">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+
+<body>
+  
+ 
+  <div class="menu-btn"><i class="fa fa-search"></i></div>
+
+  <div class="container">
+
+    <nav class="nav-main">
+      
+      <img src="estilos/img/adptme.png" alt="ADPTME Logo" class="nav-brand">
+
+      <ul class="nav-menu">
+        <li><a href="http://localhost/ni%C3%B1o/all/ADPTME.html">INICIO</a></li>
+        <li><a href="http://localhost/ni%C3%B1o/all/Adoptar%20ADPTME.html">ADOPTAR</a></li>
+        <li><a href="http://localhost/ni%C3%B1o/all/Dar%20en%20Adopcion%20ADPTME.html">DAR EN ADOPCIÓN</a></li>
+        <li><a href="http://localhost/ni%C3%B1o/login-main/index.html">INGRESAR</a></li>
+        <li><a href="http://localhost/ni%C3%B1o/all/Registrarse%20ADPTME.html">REGISTRARSE</a></li>
+      </ul>
+
+    <ul class="nav-menu-right">
+      <li><a href="#"><i class="fas fa-search"></i></a></li>
+    </ul>
+  </nav><hr>
+
+    <!-- SHOWCASE -->
+    <header class="showcase">
+      <h1>¡ADPTME!</h1></br>
+      <p>El amor es una palabra de cuatro patas.</p>
+      <a href="http://localhost/ni%C3%B1o/all/Testimonios%20ADPTME.html" class="btn">
+        TESTIMONIOS 
+      </a>
+    </header>
+
+    <!-- NEWS CARDS -->
+
+    
+
+    <section class="cards-banner-one">
+      <div class="content">
+        <h2><center>Formulario para dar en adopción.</center></h2></br>
+    <form action="/my-handling-form-page" method="post">
+     <ul>
+  
+      <p>DATOS PERSONALES.</p>
+      <br><label for="Fecha">Fecha actual</label>
+      <input type="date" id="start" name="trip-start" value="1999-07-22" min="1500-01-01" max="2021-12-31"><br>
+      <br>
+      <li>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="user_name" />
+      </li>
+      <br><label for="Fechadenacimiento">Fecha de nacimiento</label>
+      <input type="date" id="start" name="trip-start" value="1999-07-22" min="1500-01-01" max="2021-12-31"><br>
+      <br><input type="radio" name="sexo" value="mujer">Mujer<br>
+        <br><input type="radio" name="sexo" value="hombre">Hombre<br>
+        <br>
+        <li>
+          <label for="name">Estado Civil</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="name">Dirección</label>
+          <input type="text" id="direccion" name="user_direccion" />
+      </li>
+      <li>
+        <label for="name">Código postal</label>
+        <input type="text" id="direccion" name="user_direccion" />
+    </li>
+        <li>
+          <label for="estado">Estado</label>
+          <input type="text" id="name" name="user_name" />
+      </li><li>
+        <label for="municipio">municipio</label>
+        <input type="text" id="name" name="user_name" />
+    </li>
+    <li>
+      <label for="mail">Correo electrónico</label>
+      <input type="email" id="mail" name="user_email" />
+    </li>
+    <li>
+      <label for="number">Número telefónico</label>
+      <input type="number" id="name" name="user_number" />
+  </li>
+      <li>
+          <label for="number">Número Celular</label>
+          <input type="number" id="name" name="user_number" />
+      </li>
+      <li>
+       <label for="mail">Día y hora de la cita</label>
+       <input type="text" id="fecha" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"
+      integrity="sha256-FEqEelWI3WouFOo2VWP/uJfs1y8KJ++FLh2Lbqc8SJk=" crossorigin="anonymous"></script>
+  
+  <script>
+      $(document).ready(() => {
+          $('#fecha').datetimepicker({
+              inline: true,
+          });
+      });
+  </script>
+  </li></br>
+  <hr>
+  <br>
+  <p>DATOS DEL CANINO.</p>
+  <br>
+  <li>
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="user_name" />
+  </li>
+  <li>
+    <label for="number">Edad</label>
+    <input type="number" id="number" name="user_number" />
+  </li>
+  <br><label for="Fechadenacimiento">Fecha de nacimiento</label>
+  <input type="date" id="start" name="trip-start" value="1999-07-22" min="1500-01-01" max="2021-12-31"><br><br>
+  <p>El cachorro es...</p>
+  <input type="radio" name="sexo" value="mujer">Hembra<br>
+    <br><input type="radio" name="sexo" value="hombre">Macho<br>
+    <br>
+    <p>El cachorro es de tamaño...</p>
+    <input type="radio" name="tamaño" value="Pequeño">Pequeño<br>
+    <br><input type="radio" name="tamaño" value="Mediano">Mediano<br>
+    <br><input type="radio" name="tamaño" value="Grande">Grande<br>
+    
+      <br>
+  <hr>
+  <br>
+  
+  
+  <p>ENVIAR LA SIGUIENTE DOCUMENTACIÓN.</p>
+  
+  <p>1. Muestra de sangre.</p>
+        <form id="formulario" action="/procesarPeticion" method="multipart/form-data">
+          <input id="fichero" name="fichero" type="file"><br><br>
+  <p>1. Vacuna antirrábica.</p>
+       <form id="formulario" action="/procesarPeticion" method="multipart/form-data">
+         <input id="fichero" name="fichero" type="file"><br><br>
+  <p>1. Registro municipal.</p>
+       <form id="formulario" action="/procesarPeticion" method="multipart/form-data">
+         <input id="fichero" name="fichero" type="file"><br><br>
+         
+         <hr>
+         <br>
+         
+         
+         <p>DESCARGAR Y LLENAR FORMATO.</p>
+      <a download href="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/img/CARTILLA%20SANITARIA%20ADPTME.pdf"> Carta Sanitaria ADPTME</a><br><br>
+    
+      <a download href="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/img/CARTILLA%20RESPONSIVA%20ADPTME.pdf"> Carta Responsiva ADPTME</a>
+    
+    
+      <br><br>
+    
+      <a href="#" class="btn">Enviar <i class="fas fa-chevron-right"></i></a>
+     
+      </div>
+  
+    </section>
+  
+
+    <section class="social">
+      <p>SIGUENOS</p>
+      <div class="links">
+        <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+</div>
+
+<div class="footer-links">
+  <div class="footer-container">
+
+    <ul>
+      <li>
+        <a><h3>Sobre nosotros</h3></a></li>
+      <li><a href ="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/Blog%20ADPTME.html" target="_blank">Nuestro blog</a></li>
+      <li><a href ="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/Nosotros%20ADPTME.html" target="_blank">Nosotros</a></li>
+      <li><a href ="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/Testimonios%20ADPTME.html" target="_blank">Testimonios</a></li>
+    </ul>
+
+    <ul>
+      <li><a><h3>Conoce más</h3></a></li>
+      <li><a href ="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/T%C3%A9rminos%20y%20condiciones%20ADPTME.html" target="_blank">Términos y condiciones</a></li>
+      <li><a href ="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/Pol%C3%ADticas%20y%20Privacidad%20ADPTME.html" target="_blank">Políticas y privacidad</a></li>
+      <li><a href ="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/Aviso%20de%20Cookies%20ADPTME.html" target="_blank">Cookies</a></li>
+    </ul>
+
+    <ul>
+      <li><a><h3>Contacto</h3></a></li>
+      <li><a>ADPTME, A.C.</a></li>
+      <li><a>CTO de las Ceibas 105</a></li>
+      <li><a>FRACC Cumbres de las Ceibas</a></li>
+      <li><a>San Luis Potosí, S.L.P. 78370</a></li>
+      <li><a>Tel. 444 799 4553</a></li>
+    </ul>
+
+    <ul>
+      <li><a><h3>Te necesitamos</h3></a></li>
+      <li><a>Banamex Cta: 7008 / 0499920</a></li>
+      <li><a>Clabe: 002700700804999203</a></li>
+      <li><a>San Luis Potosí, S.L.P.</a></li>
+      <li><a>(recibos deducibles de impuestos)</a></li>
+      <a href="file:///C:/Users/silvia/Downloads/ni%C3%B1o/ni%C3%B1o/DONATIVO%20ADPTME%20TARJETA.html" class="btn">Donativos <i class="fas fa-chevron-right"></i></a>
+    </ul>
+  </div>
+</div>
+<hr><form><center>
+  <div id="google_translate_element" class="google"></div>
+  <script type="text/javascript">function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'am,af,ar,ca,eu,es,es,id,ga,gl,hi,hu,ja,en,fa,fr,is,it,la,pl,pt,ru,sk,sl,sr,sv,th,cy,de,ko,mk,mg,ne,no', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+  }</script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <div class="menu-btn"><i class="fas fa-bars fa-2x"></i></div></center>
+</form><hr>
+<footer class="footer"><h3>ADPTME. Todos los derechos reservados.</h3></footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
